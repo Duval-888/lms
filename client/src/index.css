@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Spacing */
+  --spacing-section-height: 500px;
+
+  /* Grid */
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+
+  /* Font sizes */
+  --font-size-course-deatails-heading-small: 26px;
+  --line-height-course-deatails-heading-small: 36px;
+  --font-size-course-deatails-heading-large: 36px;
+  --line-height-course-deatails-heading-large: 48px;
+  --font-size-home-heading-small: 28px;
+  --line-height-home-heading-small: 34px;
+  --font-size-home-heading-large: 48px;
+  --line-height-home-heading-large: 56px;
+  --font-size-default: 15px;
+  --line-height-default: 21px;
+}
+
+* {
+  font-family: Outfit;
+}
+@layer base{
+  html{
+    scroll-behaviour: smooth;
+  }
+} 
+::-webkit-scrollbar{
+  display:none
+}
